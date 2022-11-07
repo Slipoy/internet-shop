@@ -1,0 +1,84 @@
+.card {
+  background: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  border-radius: 7px;
+  overflow: hidden;
+  margin-bottom: 30px;
+  text-decoration: none;
+  width: 32%;
+  display: block;
+}
+.card:hover {
+  transform: scale(1.01);
+}
+.card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+.card .cardHeading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.card .cardHeading h3 {
+  margin: 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 32px;
+}
+.card .cardHeading span {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  color: #ffffff;
+  background: #262626;
+  border-radius: 2px;
+  padding: 1px 8px;
+}
+.card .cardText {
+  margin: 0 20px;
+}
+.card .cardText .cardInfo {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card .cardText .cardInfo .rating {
+  background-image: url("../../../assets/icon/rating.svg");
+  background-repeat: no-repeat;
+  background-position: 0 7px;
+  padding-left: 20px;
+  margin-right: 26px;
+  color: #ffc107;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 32px;
+}
+.card .cardText .cardInfo .price {
+  color: #8c8c8c;
+  font-size: 18px;
+  line-height: 32px;
+  margin-right: 10px;
+}
+.card .cardText .cardInfo .price:after {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  margin-left: 10px;
+  border-radius: 50%;
+  vertical-align: middle;
+  content: "";
+  background-color: #8c8c8c;
+}
+.card .cardText .cardInfo .category {
+  color: #8c8c8c;
+  font-size: 18px;
+  line-height: 32px;
+  max-width: 100%;
+}
+
+/*# sourceMappingURL=cards.module.css.map */

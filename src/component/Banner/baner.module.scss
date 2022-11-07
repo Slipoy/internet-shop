@@ -1,0 +1,40 @@
+.promo{
+  width: 100%;
+  section{
+    margin-bottom: 56px;
+    padding: 68px 0 68px;
+    border-radius: 10px;
+    box-shadow: 0 7px 12px rgba(158, 158, 163, 0.1);
+    width: 100%;
+  }
+  .firstBan{
+    background: lightskyblue url(../../assets/img/2.png) no-repeat right top 0;
+    background-size: contain;
+    p{
+      width: 600px;
+      margin-left: 50px;
+    }
+    h1{
+      margin-left: 50px;
+    }
+  }
+  .secondBan{
+    background: #fff1b8 url(../../assets/img/3.jpg) no-repeat right;
+    p{
+      width: 600px;
+      margin-left: 50px;
+    }
+    h1{
+      margin-left: 50px;
+    }
+  }
+  .thirdBan{
+    background: #fff1b8 url(../../assets/img/4.jpg) no-repeat right;
+    color: white;
+    text-align: center;
+  }
+  .fourthBan{
+    background: #fff1b8 url(../../assets/img/5.jpg)no-repeat center;
+    text-align: center;
+  }
+}

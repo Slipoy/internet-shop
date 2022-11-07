@@ -1,0 +1,32 @@
+.footer {
+  padding: 60px 0;
+}
+.footer .footerBlock {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer .footerNav {
+  margin-left: 35px;
+  margin-right: auto;
+}
+.footer .footerLink {
+  display: inline-block;
+  color: #595959;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-decoration: none;
+  margin-right: 15px;
+}
+.footer .socialLinks {
+  display: flex;
+  align-items: center;
+  margin-right: 21px;
+}
+.footer .footerLogo img {
+  width: 50px;
+}
+
+/*# sourceMappingURL=footer.module.css.map */

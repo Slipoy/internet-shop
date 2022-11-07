@@ -1,0 +1,42 @@
+.promo {
+  width: 100%;
+}
+.promo section {
+  margin-bottom: 56px;
+  padding: 68px 0 68px;
+  border-radius: 10px;
+  box-shadow: 0 7px 12px rgba(158, 158, 163, 0.1);
+  width: 100%;
+}
+.promo .firstBan {
+  background: lightskyblue url(../../assets/img/2.png) no-repeat right top 0;
+  background-size: contain;
+}
+.promo .firstBan p {
+  width: 600px;
+  margin-left: 50px;
+}
+.promo .firstBan h1 {
+  margin-left: 50px;
+}
+.promo .secondBan {
+  background: #fff1b8 url(../../assets/img/3.jpg) no-repeat right;
+}
+.promo .secondBan p {
+  width: 600px;
+  margin-left: 50px;
+}
+.promo .secondBan h1 {
+  margin-left: 50px;
+}
+.promo .thirdBan {
+  background: #fff1b8 url(../../assets/img/4.jpg) no-repeat right;
+  color: white;
+  text-align: center;
+}
+.promo .fourthBan {
+  background: #fff1b8 url(../../assets/img/5.jpg) no-repeat center;
+  text-align: center;
+}
+
+/*# sourceMappingURL=baner.module.css.map */

@@ -1,0 +1,56 @@
+header {
+  margin-bottom: 40px;
+}
+header .storeHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .storeHeader span {
+  max-width: 150px;
+  margin-right: 20px;
+  overflow: hidden;
+  font-weight: bold;
+  font-size: 18px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+header .storeHeader button {
+  align-items: center;
+  padding: 8px 16px;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  background: #1890ff;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.0015);
+}
+header .storeHeader button:hover {
+  border: 1px solid #1890ff;
+  color: #595959;
+  background: #ffffff;
+}
+header .storeHeader .address {
+  flex: 0.8;
+}
+header .storeHeader .address input {
+  background-color: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  font-size: 16px;
+  line-height: 24px;
+  background-image: url(../../assets/icon/home.svg);
+  background-repeat: no-repeat;
+  background-position: left 11px center;
+  padding: 8px 8px 8px 35px;
+  width: 100%;
+}
+header .storeHeader .address input-search {
+  width: 300px;
+}
+header .storeHeader img {
+  width: 50px;
+}
+
+/*# sourceMappingURL=header.module.css.map */
