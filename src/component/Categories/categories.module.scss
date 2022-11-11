@@ -1,5 +1,6 @@
 .categories{
-display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  column-gap: 25px;
+  grid-template-columns: repeat(3, 1fr);
+
 }

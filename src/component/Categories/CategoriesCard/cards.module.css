@@ -5,7 +5,6 @@
   overflow: hidden;
   margin-bottom: 30px;
   text-decoration: none;
-  width: 32%;
   display: block;
 }
 .card:hover {
@@ -47,7 +46,8 @@
   align-items: center;
   flex-wrap: wrap;
 }
-.card .cardText .cardInfo .rating {
+
+.rating {
   background-image: url("../../../assets/icon/rating.svg");
   background-repeat: no-repeat;
   background-position: 0 7px;
@@ -58,13 +58,14 @@
   font-size: 18px;
   line-height: 32px;
 }
-.card .cardText .cardInfo .price {
+
+.price {
   color: #8c8c8c;
   font-size: 18px;
   line-height: 32px;
   margin-right: 10px;
 }
-.card .cardText .cardInfo .price:after {
+.price:after {
   display: inline-block;
   width: 5px;
   height: 5px;
@@ -74,7 +75,8 @@
   content: "";
   background-color: #8c8c8c;
 }
-.card .cardText .cardInfo .category {
+
+.category {
   color: #8c8c8c;
   font-size: 18px;
   line-height: 32px;

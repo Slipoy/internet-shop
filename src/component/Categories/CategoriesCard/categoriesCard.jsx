@@ -3,19 +3,19 @@ import {NavLink} from "react-router-dom";
 import style from "./cards.module.css"
 import img from '../../../assets/img/3.jpg'
 
-const Cards = ()=>{
+const Cards = ({name,price,kitchen, stars, time_of_delivery,products})=>{
     return(
-        <NavLink to={"/"} className={style.card}>
+        <NavLink to={"categories/" + products}  className={style.card}>
             <img src={img} alt="image" />
             <div className={style.cardText}>
                 <div className={style.cardHeading}>
-                    <h3>Путишествия</h3>
-                    <span>60</span>
+                    <h3>{name}</h3>
+                    <span>{time_of_delivery}</span>
                 </div>
                 <div className={style.cardInfo}>
-                    <p className={style.rating}>4.5</p>
-                    <p className={style.price}>500$</p>
-                    <p className={style.category}>Египет</p>
+                    <p className={style.rating}>{stars}</p>
+                    <p className={style.price}>От ${price}</p>
+                    <p className={style.category}>{kitchen}</p>
                 </div>
             </div>
         </NavLink>

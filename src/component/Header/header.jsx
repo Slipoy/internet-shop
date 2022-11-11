@@ -16,7 +16,10 @@ const Header = ()=>{
                     <input type="text" placeholder="Адрес доставки"/>
                 </label>
                 <div >
-                    <span>Name</span>
+                    <button className="button button-cart" id="cart-button" >
+                        <span className="button-cart-svg"></span>
+                        <span className="button-text">Корзина</span>
+                    </button>
                     <button>LOGIn</button>
                 </div>
             </div>
