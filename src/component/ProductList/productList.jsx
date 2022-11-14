@@ -32,4 +32,5 @@ const ProductList = ()=> {
         </section>
     )
 }
+
 export default ProductList
