@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/internet-shop/static/css/main.ef4550f4.css",
-    "main.js": "/internet-shop/static/js/main.3d06ef63.js",
+    "main.css": "/internet-shop/static/css/main.cac5c7da.css",
+    "main.js": "/internet-shop/static/js/main.b030c366.js",
     "static/media/4.jpg": "/internet-shop/static/media/4.29fa1045e55d4e58dce6.jpg",
     "static/media/2.png": "/internet-shop/static/media/2.c2046070442063aff534.png",
     "static/media/5.jpg": "/internet-shop/static/media/5.e47575f5c4b9b1c387a6.jpg",
@@ -19,11 +19,11 @@
     "static/media/rating.svg": "/internet-shop/static/media/rating.4f4d573baa7d36c1ffbf.svg",
     "index.html": "/internet-shop/index.html",
     "static/media/fb.svg": "/internet-shop/static/media/fb.b9ef90ed46fdc1d70f563babcebef1fc.svg",
-    "main.ef4550f4.css.map": "/internet-shop/static/css/main.ef4550f4.css.map",
-    "main.3d06ef63.js.map": "/internet-shop/static/js/main.3d06ef63.js.map"
+    "main.cac5c7da.css.map": "/internet-shop/static/css/main.cac5c7da.css.map",
+    "main.b030c366.js.map": "/internet-shop/static/js/main.b030c366.js.map"
   },
   "entrypoints": [
-    "static/css/main.ef4550f4.css",
-    "static/js/main.3d06ef63.js"
+    "static/css/main.cac5c7da.css",
+    "static/js/main.b030c366.js"
   ]
 }
