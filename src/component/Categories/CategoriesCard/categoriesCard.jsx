@@ -3,10 +3,11 @@ import {NavLink} from "react-router-dom";
 import style from "./cards.module.css"
 import img from '../../../assets/img/3.jpg'
 
-const Cards = ({name,price,kitchen, stars, time_of_delivery,products})=>{
+const Cards = ({name,price,kitchen,image, stars, time_of_delivery,products})=>{
+    const src = require(`../../../assets/${image}`)
     return(
         <NavLink to={"categories/" + products}  className={style.card}>
-            <img src={img} alt="image" />
+            <img src={src} alt="image" />
             <div className={style.cardText}>
                 <div className={style.cardHeading}>
                     <h3>{name}</h3>

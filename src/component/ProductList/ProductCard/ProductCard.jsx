@@ -7,7 +7,12 @@ import {addToBasket, deleteBasket} from "../../../reduse-store/basket";
 
 
 
-const ProductCard = ({ id, description, name, price, addToBasket,deleteBasket})=>{
+
+
+
+
+const ProductCard = ({ id,image, description, name, price, addToBasket,deleteBasket})=>{
+    const src = require(`../../../assets/${image}`)
 
     const [isBasket, setBasket ] = useState(false)
 
@@ -30,7 +35,7 @@ const ProductCard = ({ id, description, name, price, addToBasket,deleteBasket})=
     }
     return(
         <div className={styleCard.card}>
-            <img src={img} alt=""/>
+            <img src={src} alt=""/>
             <div className={styleCard.cardText}>
                 <div className={styleCard.cardHeading}>
                     <h3>{name}</h3>
