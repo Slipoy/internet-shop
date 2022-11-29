@@ -28,7 +28,7 @@ const Header = ({login, logOut})=>{
     return(
         <header className={style.header}>
             <div className={style.storeHeader}>
-                <NavLink to={"/"}>
+                <NavLink to={"internet-shop/"}>
                     <img src={logo} alt=""/>
                 </NavLink>
                 <label className={style.address} >
