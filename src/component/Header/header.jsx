@@ -36,13 +36,19 @@ const Header = ({login, logOut})=>{
                 </label>
                 <div>
                     <span>{login}</span>
-                    {!login && <button className={style.btn} onClick={handlerLoginModal}>Войти</button>}
+                    {!login && <>
+                        <button className="button button-cart" id="cart-button" onClick={handleBasketModal}>
+                        <span className="button-cart-svg"></span>
+                        <span className="button-text">Корзина</span>
+                        </button>
+                        <button className={style.btn} onClick={handlerLoginModal}>Войти</button></>}
                     {login && <>
                         <button className="button button-cart" id="cart-button" onClick={handleBasketModal}>
                         <span className="button-cart-svg"></span>
                         <span className="button-text">Корзина</span>
                     </button>
-                        <button className={style.btn} onClick={handleLogOut}>Выйти</button></> }
+                        <button className={style.btn} onClick={handleLogOut}>Выйти</button>
+                    </>}
                 </div>
             </div>
             {isLoginModal && <ModalAuth onClose={handlerLoginModal}/>}

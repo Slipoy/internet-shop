@@ -5,6 +5,7 @@ import img from '../../../assets/img/3.jpg'
 
 const Cards = ({name,price,kitchen,image, stars, time_of_delivery,products})=>{
     const src = require(`../../../assets/${image}`)
+
     return(
         <NavLink to={"categories/" + products}  className={style.card}>
             <img src={src} alt="image" />
