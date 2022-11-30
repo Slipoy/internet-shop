@@ -22,7 +22,7 @@ const Header = ({login, logOut})=>{
     }
     const handleLogOut = ()=>{
         logOut()
-        navigate(`/`)
+        navigate(`internet-shop/`)
     }
 
     return(
