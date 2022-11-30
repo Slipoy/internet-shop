@@ -9,6 +9,7 @@ import HomePage from "./component/homePAge/HomeHage";
 import ProductList from "./component/ProductList/productList";
 
 function App() {
+    // alert("Чтобы добавить товар в корзину - сначала авторизуйтесь под любым логином и паролем")
   return (
     <div className={style.cont}>
       <main>

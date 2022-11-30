@@ -6,10 +6,12 @@ import ModalAuth from "../ModalAuth/ModalAuth";
 import {logOut} from "../../reduse-store/reducer";
 import {connect} from "react-redux";
 import ModalBasket from "../ModalBasket/modalbasket";
+import basketIMG from "../../assets/img/basket.png"
+import basketReducer from "../../reduse-store/basket";
 
 
 
-const Header = ({login, logOut})=>{
+const Header = ({login, logOut,basket})=>{
     const [isLoginModal, setLoginModal] = useState(false)
     const navigate = useNavigate()
     const [isBasketModal, setBasketModal] = useState(false)
@@ -22,7 +24,7 @@ const Header = ({login, logOut})=>{
     }
     const handleLogOut = ()=>{
         logOut()
-        navigate(`/`)
+        navigate(`internet-shop/`)
     }
 
     return(
@@ -34,14 +36,21 @@ const Header = ({login, logOut})=>{
                 <label className={style.address} >
                     <input type="text" placeholder="Адрес доставки"/>
                 </label>
-                <div>
+                <div className={style.headerBtn}>
                     <span>{login}</span>
-                    {!login && <button className={style.btn} onClick={handlerLoginModal}>Войти</button>}
+                    {!login && <>
+                        <button className={`${style.btnBasket}`} id="cart-button" onClick={handleBasketModal}>
+                            {basket.length > 0 && <span className={style.count}>{basket.length}</span>}
+                            <img src={basketIMG} alt=""/>
+                        </button>
+                        <button className={style.btn} onClick={handlerLoginModal}>Войти</button></>}
+
+
                     {login && <>
-                        <button className="button button-cart" id="cart-button" onClick={handleBasketModal}>
-                        <span className="button-cart-svg"></span>
-                        <span className="button-text">Корзина</span>
-                    </button>
+                        <button className={`${style.btnBasket}`} id="cart-button" onClick={handleBasketModal}>
+                            {basket.length > 0 && <span className={style.count}>{basket.length}</span>}
+                            <img src={basketIMG} alt=""/>
+                        </button>
                         <button className={style.btn} onClick={handleLogOut}>Выйти</button></> }
                 </div>
             </div>
@@ -53,7 +62,8 @@ const Header = ({login, logOut})=>{
 
 const mapStateToProps = (state)=>{
     return {
-        login: state.logOutLog.login
+        login: state.logOutLog.login,
+        basket: state.basketReducer.basket
     }
 }
 
