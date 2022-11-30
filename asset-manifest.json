@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/internet-shop/static/css/main.cac5c7da.css",
-    "main.js": "/internet-shop/static/js/main.d8c51f17.js",
+    "main.css": "/internet-shop/static/css/main.32323d4c.css",
+    "main.js": "/internet-shop/static/js/main.32227a5d.js",
     "static/media/azhi.jpg": "/internet-shop/static/media/azhi.ffff22dead3294be47c9.jpg",
     "static/media/4.jpg": "/internet-shop/static/media/4.29fa1045e55d4e58dce6.jpg",
     "static/media/black.jpg": "/internet-shop/static/media/black.04c1a2ec9342789827d8.jpg",
@@ -68,11 +68,11 @@
     "static/media/rating.svg": "/internet-shop/static/media/rating.4f4d573baa7d36c1ffbf.svg",
     "index.html": "/internet-shop/index.html",
     "static/media/fb.svg": "/internet-shop/static/media/fb.b9ef90ed46fdc1d70f563babcebef1fc.svg",
-    "main.cac5c7da.css.map": "/internet-shop/static/css/main.cac5c7da.css.map",
-    "main.d8c51f17.js.map": "/internet-shop/static/js/main.d8c51f17.js.map"
+    "main.32323d4c.css.map": "/internet-shop/static/css/main.32323d4c.css.map",
+    "main.32227a5d.js.map": "/internet-shop/static/js/main.32227a5d.js.map"
   },
   "entrypoints": [
-    "static/css/main.cac5c7da.css",
-    "static/js/main.d8c51f17.js"
+    "static/css/main.32323d4c.css",
+    "static/js/main.32227a5d.js"
   ]
 }
