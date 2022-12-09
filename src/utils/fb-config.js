@@ -5,7 +5,7 @@ import 'firebase/database';
 const firebaseConfig = {
     // apiKey: "AIzaSyC9R1kA4b5bXsvUH3M8xOshqi9DQjy42Bw",
     // authDomain: "deliveryg62.firebaseapp.com",
-    databaseURL: "https://test-289e1-default-rtdb.europe-west1.firebasedatabase.app/",
+    databaseURL: "https://internet-sh-default-rtdb.europe-west1.firebasedatabase.app/",
     // projectId: "deliveryg62",
     // storageBucket: "deliveryg62.appspot.com",
     // messagingSenderId: "143680312422",
